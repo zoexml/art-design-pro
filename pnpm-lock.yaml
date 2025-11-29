@@ -1,7 +1,7 @@
 lockfileVersion: '9.0'
 
 settings:
-  autoInstallPeers: true
+  autoInstallPeers: false
   excludeLinksFromLockfile: false
 
 importers:
@@ -72,7 +72,7 @@ importers:
         version: 3.5.22(typescript@5.6.3)
       vue-draggable-plus:
         specifier: ^0.6.0
-        version: 0.6.0(@types/sortablejs@1.15.8)
+        version: 0.6.0
       vue-i18n:
         specifier: ^9.14.0
         version: 9.14.5(vue@3.5.22(typescript@5.6.3))
@@ -151,7 +151,7 @@ importers:
         version: 16.24.0(typescript@5.6.3)
       stylelint-config-html:
         specifier: ^1.1.0
-        version: 1.1.0(postcss-html@1.8.0)(stylelint@16.24.0(typescript@5.6.3))
+        version: 1.1.0(stylelint@16.24.0(typescript@5.6.3))
       stylelint-config-recess-order:
         specifier: ^4.6.0
         version: 4.6.0(stylelint@16.24.0(typescript@5.6.3))
@@ -160,7 +160,7 @@ importers:
         version: 14.1.0(postcss@8.5.6)(stylelint@16.24.0(typescript@5.6.3))
       stylelint-config-recommended-vue:
         specifier: ^1.5.0
-        version: 1.6.1(postcss-html@1.8.0)(stylelint@16.24.0(typescript@5.6.3))
+        version: 1.6.1(stylelint@16.24.0(typescript@5.6.3))
       stylelint-config-standard:
         specifier: ^36.0.1
         version: 36.0.1(stylelint@16.24.0(typescript@5.6.3))
@@ -2920,35 +2920,10 @@ packages:
       }
     engines: { node: '>=8' }
 
-  dom-serializer@2.0.0:
-    resolution:
-      {
-        integrity: sha512-wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==
-      }
-
   dom7@3.0.0:
     resolution:
       {
         integrity: sha512-oNlcUdHsC4zb7Msx7JN3K0Nro1dzJ48knvBOnDPKJ2GV9wl1i5vydJZUSyOfrkKFDZEud/jBsTk92S/VGSAe/g==
-      }
-
-  domelementtype@2.3.0:
-    resolution:
-      {
-        integrity: sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==
-      }
-
-  domhandler@5.0.3:
-    resolution:
-      {
-        integrity: sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==
-      }
-    engines: { node: '>= 4' }
-
-  domutils@3.2.2:
-    resolution:
-      {
-        integrity: sha512-6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==
       }
 
   dot-prop@5.3.0:
@@ -3806,12 +3781,6 @@ packages:
     resolution:
       {
         integrity: sha512-0quDb7s97CfemeJAnW9wC0hw78MtW7NU3hqtCD75g2vFlDLt36llsYD7uB7SUzojLMP24N5IatXf7ylGXiGG9A==
-      }
-
-  htmlparser2@8.0.2:
-    resolution:
-      {
-        integrity: sha512-GYdjWKDkbRLkZ5geuHs5NY1puJ+PXwP7+fHPRz06Eirsb9ugf6d8kkXav6ADhcODhFFPMIXyxkxSuMf3D6NCFA==
       }
 
   human-signals@5.0.0:
@@ -5091,13 +5060,6 @@ packages:
         integrity: sha512-SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig==
       }
 
-  postcss-html@1.8.0:
-    resolution:
-      {
-        integrity: sha512-5mMeb1TgLWoRKxZ0Xh9RZDfwUUIqRrcxO2uXO+Ezl1N5lqpCiSU5Gk6+1kZediBfBHFtPCdopr2UZ2SgUsKcgQ==
-      }
-    engines: { node: ^12 || >=14 }
-
   postcss-media-query-parser@0.2.3:
     resolution:
       {
@@ -5109,15 +5071,6 @@ packages:
       {
         integrity: sha512-0sglIs9Wmkzbr8lQwEyIzlDOOC9bGmfVKcJTaxv3vMmd3uo4o4DerC3En0bnmgceeql9BfC8hRkp7cg0fjdVqw==
       }
-
-  postcss-safe-parser@6.0.0:
-    resolution:
-      {
-        integrity: sha512-FARHN8pwH+WiS2OPCxJI8FuRJpTVnn6ZNFiqAM2aeW2LwTHWWmWgIyKC6cUo0L8aeKiF/14MNvnpls6R2PBeMQ==
-      }
-    engines: { node: '>=12.0' }
-    peerDependencies:
-      postcss: ^8.3.3
 
   postcss-safe-parser@7.0.1:
     resolution:
@@ -6176,7 +6129,6 @@ packages:
         integrity: sha512-G5TSfHrt9tX9EjdG49InoFJbt2NYk0h3kgjgKxkFWr3ulIUays0oFObr5KZ8qzD4+QnhtALiRwIqY6qul4egqw==
       }
     peerDependencies:
-      '@types/sortablejs': ^1.15.0
       '@vue/composition-api': '*'
     peerDependenciesMeta:
       '@vue/composition-api':
@@ -8085,27 +8037,9 @@ snapshots:
     dependencies:
       path-type: 4.0.0
 
-  dom-serializer@2.0.0:
-    dependencies:
-      domelementtype: 2.3.0
-      domhandler: 5.0.3
-      entities: 4.5.0
-
   dom7@3.0.0:
     dependencies:
       ssr-window: 3.0.0
-
-  domelementtype@2.3.0: {}
-
-  domhandler@5.0.3:
-    dependencies:
-      domelementtype: 2.3.0
-
-  domutils@3.2.2:
-    dependencies:
-      dom-serializer: 2.0.0
-      domelementtype: 2.3.0
-      domhandler: 5.0.3
 
   dot-prop@5.3.0:
     dependencies:
@@ -8680,13 +8614,6 @@ snapshots:
   html-tags@3.3.1: {}
 
   html-void-elements@2.0.1: {}
-
-  htmlparser2@8.0.2:
-    dependencies:
-      domelementtype: 2.3.0
-      domhandler: 5.0.3
-      domutils: 3.2.2
-      entities: 4.5.0
 
   human-signals@5.0.0: {}
 
@@ -9275,20 +9202,9 @@ snapshots:
       exsolve: 1.0.7
       pathe: 2.0.3
 
-  postcss-html@1.8.0:
-    dependencies:
-      htmlparser2: 8.0.2
-      js-tokens: 9.0.1
-      postcss: 8.5.6
-      postcss-safe-parser: 6.0.0(postcss@8.5.6)
-
   postcss-media-query-parser@0.2.3: {}
 
   postcss-resolve-nested-selector@0.1.6: {}
-
-  postcss-safe-parser@6.0.0(postcss@8.5.6):
-    dependencies:
-      postcss: 8.5.6
 
   postcss-safe-parser@7.0.1(postcss@8.5.6):
     dependencies:
@@ -9566,9 +9482,8 @@ snapshots:
     dependencies:
       js-tokens: 9.0.1
 
-  stylelint-config-html@1.1.0(postcss-html@1.8.0)(stylelint@16.24.0(typescript@5.6.3)):
+  stylelint-config-html@1.1.0(stylelint@16.24.0(typescript@5.6.3)):
     dependencies:
-      postcss-html: 1.8.0
       stylelint: 16.24.0(typescript@5.6.3)
 
   stylelint-config-recess-order@4.6.0(stylelint@16.24.0(typescript@5.6.3)):
@@ -9585,12 +9500,11 @@ snapshots:
     optionalDependencies:
       postcss: 8.5.6
 
-  stylelint-config-recommended-vue@1.6.1(postcss-html@1.8.0)(stylelint@16.24.0(typescript@5.6.3)):
+  stylelint-config-recommended-vue@1.6.1(stylelint@16.24.0(typescript@5.6.3)):
     dependencies:
-      postcss-html: 1.8.0
       semver: 7.7.2
       stylelint: 16.24.0(typescript@5.6.3)
-      stylelint-config-html: 1.1.0(postcss-html@1.8.0)(stylelint@16.24.0(typescript@5.6.3))
+      stylelint-config-html: 1.1.0(stylelint@16.24.0(typescript@5.6.3))
       stylelint-config-recommended: 17.0.0(stylelint@16.24.0(typescript@5.6.3))
 
   stylelint-config-recommended@14.0.1(stylelint@16.24.0(typescript@5.6.3)):
@@ -9953,7 +9867,7 @@ snapshots:
     dependencies:
       vue: 3.5.22(typescript@5.6.3)
 
-  vue-draggable-plus@0.6.0(@types/sortablejs@1.15.8):
+  vue-draggable-plus@0.6.0:
     dependencies:
       '@types/sortablejs': 1.15.8
 

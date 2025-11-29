@@ -36,13 +36,13 @@ export const SETTING_DEFAULT_CONFIG = {
   /** 双菜单是否显示文本 */
   dualMenuShowText: false,
   /** 系统主题类型 */
-  systemThemeType: SystemThemeEnum.AUTO,
+  systemThemeType: SystemThemeEnum.LIGHT,
   /** 系统主题模式 */
-  systemThemeMode: SystemThemeEnum.AUTO,
+  systemThemeMode: SystemThemeEnum.LIGHT,
   /** 菜单风格 */
   menuThemeType: MenuThemeEnum.DESIGN,
   /** 系统主题颜色 */
-  systemThemeColor: AppConfig.systemMainColor[0],
+  systemThemeColor: '#1D84FF',
   /** 是否显示菜单按钮 */
   showMenuButton: true,
   /** 是否显示快速入口 */
@@ -54,15 +54,15 @@ export const SETTING_DEFAULT_CONFIG = {
   /** 是否显示工作台标签 */
   showWorkTab: true,
   /** 是否显示语言切换 */
-  showLanguage: true,
+  showLanguage: false,
   /** 是否显示进度条 */
-  showNprogress: false,
+  showNprogress: true,
   /** 是否显示设置引导 */
-  showSettingGuide: true,
+  showSettingGuide: false,
   /** 是否显示节日文本 */
   showFestivalText: false,
   /** 是否显示水印 */
-  watermarkVisible: false,
+  watermarkVisible: true,
   /** 是否自动关闭 */
   autoClose: false,
   /** 是否唯一展开 */
@@ -70,7 +70,7 @@ export const SETTING_DEFAULT_CONFIG = {
   /** 是否色弱模式 */
   colorWeak: false,
   /** 是否刷新 */
-  refresh: false,
+  refresh: true,
   /** 是否加载节日烟花 */
   holidayFireworksLoaded: false,
   /** 边框模式 */
@@ -78,7 +78,7 @@ export const SETTING_DEFAULT_CONFIG = {
   /** 页面过渡效果 */
   pageTransition: 'slide-left',
   /** 标签页样式 */
-  tabStyle: 'tab-default',
+  tabStyle: 'tab-google',
   /** 自定义圆角 */
   customRadius: '0.75',
   /** 容器宽度 */
